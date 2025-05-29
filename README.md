@@ -1,13 +1,55 @@
-# Revisões PPM
+# 🧠 Revisões PPM
 
-## Sobre
-Coletânea de fichas de exercícios resolvidas da unidade curricular de PPM (Projeto de Programação Multiparadigma) de forma a ajudar neste teste marado que aí vem 😉.
- 
-Cada ficha encontra-se organizada numa **pasta separada**, correspondente a um **projeto diferente**.
+## 📚 Sobre
 
-> ⚠️ **Atenção**: Ao transferir este repositório, ter em atenção que as fichas não estão todas num único projeto.
+Coletânea de fichas de exercícios resolvidas da unidade curricular de **PPM (Projeto de Programação Multiparadigma)** — feita para ajudar neste teste marado que aí vem 😉.
+
+
+---
+
+## ⚠️ Instruções Importantes
+
+> ⚠️ Ao transferir ou clonar este repositório, **as fichas não estão todas no mesmo projeto**.  
+> 📁 Cada pasta contém um projeto individual que deve ser aberto separadamente no IntelliJ.
+
+---
+
+### 🔧 Para abrir uma ficha/projeto no IntelliJ:
+
+1. 🗂️ **Extrair os ficheiros** do `.zip`
+2. 🧭 Abrir o IntelliJ e navegar até:  
+   **`/RevisoesPPM-<NOME_DO_BRANCH>/FichaN`**
+3. 🛠️ Ir a:  
+   **`File > Project Structure > Libraries > +`**
+4. ✅ Adicionar as seguintes dependências:
+   - **Scala** versão **2.13.3 ou superior**
+   - **JDK** (OpenJDK) versão **17 ou superior**
+   - **JavaFX** versão **17.0.5 ou superior** (apenas para projetos com interfaces gráficas)
+
+---
+
+## 🤝 Colaboração
+
+Colaborações são bem-vindas e eu agradeço caso queiram (um bro está exausto taver 😫).
+
+Portanto, deduzindo que já são colaboradores ao chegarem aqui nesta parte, para colaborar de forma correta neste repositório terão que fazer o seguinte:
+
+- 🔀 Criar um **novo branch** para fazer alterações
+- 📦 Para criar um novo projeto:
+  - Projeto **Scala**
+  - Build System: **IntelliJ**
+  - Diretório: **logo abaixo do diretório do repositório**
+- 🧾 Como eu sou amigo, deixei aí uma print para vocês compararem 😉
+  <img src="https://github.com/user-attachments/assets/4fd23abb-27d6-4193-87cb-6b57876201d7" alt="estrutura projeto" width="700"/>
+
+⚠️**Tem que estar exatamente nesse caminho que vêm na imagem!!!**
+- 🚫 **Evitar editar diretamente o `main` (ou branch principal)!**
+
+---
 
 ## Licença
+
+Este projeto está licenciado sob os termos da **Licença MIT**:
 
 MIT License
 
